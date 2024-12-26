@@ -35,6 +35,7 @@ function App() {
               <img src={beer.image} alt={beer.name} className="beer-image" />
               <h2>{beer.name}</h2>
               <p>{beer.style}</p>
+              <p>{beer.price}</p>
               <p>ABV: {beer.abv ? beer.abv : "N/A"}</p>
             </div>
           ))}
